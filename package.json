@@ -1,0 +1,23 @@
+{
+  "name": "twiiterbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hector-bit/twiiterBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hector-bit/twiiterBot/issues"
+  },
+  "homepage": "https://github.com/Hector-bit/twiiterBot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "twitter-api-v2": "^1.11.0"
+  }
+}
