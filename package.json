@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Hector-bit/twiiterBot#readme",
   "dependencies": {
+    "cron": "^1.8.2",
     "dotenv": "^16.0.0",
     "twitter-api-v2": "^1.11.0"
   }
