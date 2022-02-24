@@ -29,7 +29,7 @@ const job = new CronJob("0 5 * * *", () => {
     jsTweets
 })
 
-// job.start();
+job.start();
 
 // jsTweets();
 
