@@ -26,7 +26,7 @@ const jsTweets = async () => {
 
 const job = new CronJob("0 5 * * *", () => {
     // tweet()
-    jsTweets
+    jsTweets()
 })
 
 job.start();
