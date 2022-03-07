@@ -52,7 +52,7 @@ const jsTweets = async () => {
 // job.start();
 
 
-like_ten_tweets();
-jsTweets();
+await like_ten_tweets();
+await jsTweets();
 
 
