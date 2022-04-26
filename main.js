@@ -22,8 +22,11 @@ const like_ten_tweets = async () => {
 
     uniqueIDS.forEach(element => {
         console.log("liking this tweet: ", element);
-        rwClient.v2.like(mytwitterID, element);
-        setTimeout( () => {console.log("waiting")}, 1500)
+        setTimeout( () => 
+            {rwClient.v2.like(mytwitterID, element);}, 1500
+        )
+        // rwClient.v2.like(mytwitterID, element);
+        // setTimeout( () => {console.log("waiting")}, 1500)
     });
     // console.log(mytwitterID, uniqueIDS[0])
     // await rwClient.v2.like(mytwitterID ,uniqueIDS[0]);
@@ -52,7 +55,7 @@ const jsTweets = async () => {
 // job.start();
 
 
-await like_ten_tweets();
-await jsTweets();
+like_ten_tweets();
+jsTweets();
 
 
