@@ -1,5 +1,4 @@
 const rwClient = require("./twitterClient");
-const CronJob = require("cron").CronJob;
 
 const mytwitterID = '1486239064663597061';
 
